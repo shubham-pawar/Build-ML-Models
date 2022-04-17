@@ -1,23 +1,23 @@
 # Build-ML-Models
 
-#	Dataset Name - banknote authentication Data Set. 
-#	Number of Instances – 1372
-#	Number of Attributes – 5
-#	Data were extracted from images that were taken from genuine and forged banknote-like specimens. 
-#	For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. 
-#	Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. 
-#	Wavelet Transform tool were used to extract features from these images.
-#	Category 1 for genuine and 2 for forged.
-#	Task - data were extracted from images that were taken for the evaluation of an authentication procedure for banknotes.
-#	Feature Names:
-Feature Name	Detail
-V1	variance of Wavelet Transformed image (continuous)
-V2	skewness of Wavelet Transformed image (continuous)
-V3	curtosis of Wavelet Transformed image (continuous)
+-	Dataset Name - banknote authentication Data Set. <br />
+-	Number of Instances – 1372<br />
+-	Number of Attributes – 5<br />
+-	Data were extracted from images that were taken from genuine and forged banknote-like specimens. <br />
+-	For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. <br />
+-	Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. <br />
+-	Wavelet Transform tool were used to extract features from these images.<br />
+-	Category 1 for genuine and 2 for forged.<br />
+-	Task - data were extracted from images that were taken for the evaluation of an authentication procedure for banknotes.<br />
+-	Feature Names:<br />
+Feature Name	Detail<br />
+V1	variance of Wavelet Transformed image (continuous)<br />
+V2	skewness of Wavelet Transformed image (continuous)<br />
+V3	curtosis of Wavelet Transformed image (continuous)<br />
 V4	entropy of image (continuous)
 
-Features -> ['V1', 'V2', 'V3', 'V4']
-#	Data:
+# Features -> ['V1', 'V2', 'V3', 'V4']
+	Data:
              V1        V2       V3       V4
 0     3.62160   8.66610  -2.8073 -0.44699
 1     4.54590   8.16740  -2.4586 -1.46210
@@ -33,7 +33,7 @@ Features -> ['V1', 'V2', 'V3', 'V4']
 
 [1372 rows x 4 columns]
 
-#	Target:
+#	Target:<br />
  0       1
 1       1
 2       1
